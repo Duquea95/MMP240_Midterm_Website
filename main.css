@@ -1,0 +1,80 @@
+/* =Reset
+-------------------------------------------------------------- */
+
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    margin-top: 0;
+}
+*, body, h1, h2, ul, li, a, p, div{
+    margin: 0;
+    padding: 0;
+}
+.wrap, #primary{
+    margin: 0 auto;
+}
+.wrap{
+    max-width: 1400px;
+}
+#primary{
+    max-width: 650px;
+    font-family: 'PT Sans', sans-serif;
+}
+body, nav{
+    width: 100%;
+}
+nav{
+    font-size: 1.5em;
+    height: 133px;
+}
+header{
+    margin-top: 1em;
+}
+div.nav-logo, div.nav-ul{
+    display: inline-block;
+}
+div.nav-logo{
+    padding-left: 2%;
+    width: 25%;
+}
+img#logo{
+    width: 120%;
+}
+div.nav-ul{
+    width: 73%;
+    text-align: right;
+}
+li{
+    font-size: 1.4em;
+    text-align: center;
+    display: inline-block;
+    width: inherit;
+    margin: 0 1.5%;
+}
+a{
+    color: black;
+    font-family: 'PT Serif', serif;
+}
+img{
+    width: 100%;
+}
+p{
+    font-size: 1.2em;
+    margin-top: 3%;
+}
+iframe, footer{
+    margin-top: 8%;
+}
+footer{
+    background-color: #f47823;
+}
+div.footer, img.sm-icons{
+    padding-top: 8%;
+}
+div.footer{
+    text-align: center;
+}
+img.sm-icons{
+    width: 20%;
+}
